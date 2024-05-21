@@ -164,3 +164,31 @@ export const addresses = [
         text: "Jl. Taman Harapan Indah Blok HO2 No. 33, Pusaka Rakyat, Kec. Tarumajaya, Kabupaten Bekasi, Jawa Barat 17214",
     },
 ]
+
+export function publicUrlFor(path) {
+    return process.env.PUBLIC_URL + "/assets/" + path;
+}
+
+export function loadScript(src, fromPublic) {
+    return new Promise(function (resolve, reject) {
+        var script = document.createElement('script');
+
+        script.src = (
+            fromPublic === undefined ||
+            fromPublic == null ||
+            fromPublic
+        ) ? publicUrlFor(src) : src;
+
+        script.addEventListener('load', function () {
+            resolve();
+        });
+        script.addEventListener('error', function (e) {
+            reject(e);
+        });
+
+        setTimeout(() => {
+            document.body.removeChild(script);
+        }, 1500);
+        document.body.appendChild(script);
+    })
+}

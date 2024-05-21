@@ -1,13 +1,9 @@
-import { logo } from "../assets";
 import { addresses, companyName, email, phone } from "../constants";
-import { route, publicUrlFor } from "../globals/constants";
-import FastImage from "../globals/elements/fastimg";
-import { NavLink } from "react-router-dom";
 
 function SectionFooter1(props) {
     return (
         <>
-            <footer id="kontak" className={"site-footer " + props.theme}>
+            <footer id="kontak" className="site-footer footer-dark">
                 <div className="footer-top overlay-wraper">
                     <div className="overlay-main" />
                     <div className="container">
@@ -17,7 +13,7 @@ function SectionFooter1(props) {
                                     <p>Logistik yang Terpercaya, Pengiriman yang Aman, bersama Mitra Insan Amanah</p>
                                     <ul>
                                         <li> <i className="fa fa-phone site-text-primary" /> <b className="p-lr5 text-uppercase">Tel :</b> {phone} </li>
-                                    <li><i className="fa fa-envelope site-text-primary" /> <b className="p-lr5 text-uppercase">Email : </b>{email}</li>
+                                        <li><i className="fa fa-envelope site-text-primary" /> <b className="p-lr5 text-uppercase">Email : </b>{email}</li>
                                         {addresses.map((item, index) => (
                                             <li key={index}>
                                                 <i className="fa fa-location-arrow site-text-primary" />
@@ -41,7 +37,6 @@ function SectionFooter1(props) {
                     </div>
                 </div>
             </footer>
-
         </>
     )
 }

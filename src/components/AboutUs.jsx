@@ -1,4 +1,4 @@
-import { publicUrlFor } from "../globals/constants"
+import { publicUrlFor } from "../constants"
 import { abouts } from "../constants"
 import { bgAboutUs } from "../assets"
 

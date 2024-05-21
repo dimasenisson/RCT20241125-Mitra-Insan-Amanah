@@ -1,7 +1,5 @@
-import FastImage from "../globals/elements/fastimg";
 import { NavLink } from "react-router-dom";
-import { route } from "../globals/constants";
-import { loadScript } from "../globals/constants";
+import { loadScript } from "../constants";
 import { useEffect } from "react";
 import { heros } from "../constants";
 
@@ -24,7 +22,7 @@ const Hero = () => {
                                     <li data-index="rs-100" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
                                         data-thumb={heros[0].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
                                         data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
-                                        <FastImage 
+                                        <img 
                                         src={heros[0].image}
                                         alt="" 
                                         data-lazyload={heros[0].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
@@ -47,7 +45,7 @@ const Hero = () => {
                                         </div>
                                         {/* LAYER NR. 5 */}
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-100-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to={route.pages.ABOUT} className="site-button">SELENGKAPNYA</NavLink>
+                                            <NavLink to="#tentang-kami" className="site-button">SELENGKAPNYA</NavLink>
                                         </div>
                                     </li>
 
@@ -55,7 +53,7 @@ const Hero = () => {
                                     <li data-index="rs-200" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
                                         data-thumb={heros[1].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
                                         data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
-                                        <FastImage
+                                        <img
                                         src={heros[1].image} 
                                         alt="" 
                                         data-lazyload={heros[1].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
@@ -78,7 +76,7 @@ const Hero = () => {
                                         </div>
                                         
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-200-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to={route.pages.ABOUT} className="site-button">
+                                            <NavLink to="#tentang-kami" className="site-button">
                                                 SELENGKAPNYA
                                             </NavLink>
                                         </div>
@@ -88,7 +86,7 @@ const Hero = () => {
                                     <li data-index="rs-300" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
                                         data-thumb={heros[2].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
                                         data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
-                                        <FastImage 
+                                        <img 
                                         src={heros[2].image} 
                                         alt="" 
                                         data-lazyload={heros[2].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
@@ -112,7 +110,7 @@ const Hero = () => {
                                         </div>
                                         {/* LAYER NR. 5 */}
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-300-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to={route.pages.ABOUT} className="site-button">
+                                            <NavLink to="#tentang-kami" className="site-button">
                                                 SELENGKAPNYA
                                             </NavLink>
                                         </div>

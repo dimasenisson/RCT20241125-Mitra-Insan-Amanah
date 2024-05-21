@@ -1,7 +1,7 @@
-import FastImage from "../globals/elements/fastimg";
+import FastImage from "./fastimg";
 import { NavLink } from "react-router-dom";
 import { route } from "../globals/constants";
-import { publicUrlFor, loadScript } from "../globals/constants";
+import { loadScript } from "../constants";
 import { useEffect } from "react";
 import { heros } from "../constants";
 

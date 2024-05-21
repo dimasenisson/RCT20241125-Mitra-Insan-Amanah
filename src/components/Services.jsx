@@ -1,17 +1,6 @@
-// import { route } from "../../../../globals/constants";
-// import FastImage from "../../../../globals/elements/fastimg";
-// import { NavLink } from "react-router-dom";
-// import _data from "../../../../globals/data/data.json";
-
-import { route } from "../globals/constants"
-import FastImage from "../globals/elements/fastimg"
-import { NavLink } from "react-router-dom"
-import _data from "../globals/data/data.json"
 import { services } from "../constants"
 
 const Services = () => {
-    const { team2 } = _data.team;
-
     return (
         <div id="layanan" className="section-full text-center mt-our-team bg-gray p-t80 p-b50">
             <div className="container">

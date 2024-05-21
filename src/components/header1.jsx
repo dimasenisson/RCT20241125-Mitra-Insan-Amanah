@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { loadScript, route } from "../globals/constants";
-import FastImage from "../globals/elements/fastimg";
+import { loadScript } from "../constants";
 import { NavLink, useLocation } from "react-router-dom";
 import { logo } from "../assets";
 import { menus } from "../constants";
@@ -24,7 +23,7 @@ function SectionHeader1() {
             <div className="header-middle bg-white">
                 <div className="container">
                     <div className="logo-header">
-                        <NavLink to={route.home.HOME1}>
+                        <NavLink to='#home'>
                             <img src={logo} width={216} height={37} alt="" />
                         </NavLink>
                     </div>
@@ -60,7 +59,7 @@ function SectionHeader1() {
                         
                         
                         <div className="logo-show-in-mobile">
-                            <NavLink to={route.home.HOME1}>
+                            <NavLink to="#home">
                                 <img src={logo} width={216} height={37} alt="" />
                             </NavLink>
                         </div>

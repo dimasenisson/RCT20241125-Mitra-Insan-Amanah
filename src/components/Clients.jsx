@@ -1,5 +1,3 @@
-import { publicUrlFor } from "../globals/constants"
-import FastImage from "../globals/elements/fastimg"
 import { clients } from "../constants"
 
 const Clients = () => {
