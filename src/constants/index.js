@@ -1,4 +1,4 @@
-import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6, bgMission7, hero1, hero2, hero3, service1, service2, service3, service4 } from "../assets"
+import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6, bgMission7, client1, client2, client3, client4, client5, client6, hero1, hero2, hero3, service1, service2, service3, service4 } from "../assets"
 
 export const companyName = "PT Mitra Insan Amanah"
 
@@ -151,7 +151,12 @@ export const services = [
     },
 ]
 
-export const clients = []
+export const clients = [
+    client1,
+    client2,
+    client3,
+    client4,
+]
 
 export const addresses = [
     {
