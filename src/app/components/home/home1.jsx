@@ -9,7 +9,9 @@ import SectionHome1Plans from "../../sections/home/home1/section-home1-plans";
 import SectionHome1Blogs from "../../sections/home/home1/section-home1-blogs";
 import SectionHome1Testimonials from "../../sections/home/home1/section-home1-testimonials";
 import _data from "../../../globals/data/data.json";
-import { companyName, missions, services } from "../../../constants";
+import { abouts, companyName, missions, services } from "../../../constants";
+import Missions from "./Missions"
+import AboutUs from "./AboutUs";
 
 function Home1Page() {
 
@@ -24,148 +26,10 @@ function Home1Page() {
             {/* Slider */}
             <SectionSlider1 />
 
-            {/* How it Work */}
-            <div className="section-full  p-t80 p-b50 bg-gray bg-no-repeat bg-cover bg-white" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg15.jpg")})` }}>
-                <div className="container">
-                    {/* TITLE START*/}
-                    <div className="section-head text-center">
-                        <h2 data-title="Welcome">{companyName}</h2>
-                        <div className="mt-separator-outer">
-                            <div className="mt-separator site-bg-primary" />
-                        </div>
-                    </div>
-                    {/* TITLE END*/}
-                    <div className="section-content sx-how-it-work">
-                        <div className="row">
-                            {/* block 1 */}
-                            <div className="col-lg-4 col-md-6">
-                                <div className="mt-box m-b30">
-                                    <div className="mt-icon-box-wraper  p-a30 left bg-white  hover-border-outer hover-border">
-                                        <div className="icon-md radius m-b15">
-                                            <span className="icon-cell  site-text-primary"><i className="flaticon-transport-6" /></span>
-                                        </div>
-                                        <div className="icon-content">
-                                            <h4 className="mt-tilte  m-b15"><NavLink to={route.pages.ABOUT}>{services[1].title}</NavLink></h4>
-                                            <p>{services[1].text}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mt-box m-b30">
-                                    <div className="mt-icon-box-wraper  p-a30 left bg-white  hover-border-outer hover-border">
-                                        <div className="icon-md radius m-b15">
-                                            <span className="icon-cell  site-text-primary"><i className="flaticon-airplane" /></span>
-                                        </div>
-                                        <div className="icon-content">
-                                            <h4 className="mt-tilte  m-b15"><NavLink to={route.pages.ABOUT}>{services[2].title}</NavLink></h4>
-                                            <p>{services[2].text}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* block 2 */}
-                            <div className="col-lg-4 col-md-6">
-                                <div className="mt-box m-b30">
-                                    <div className="mt-media mid-img-verticle">
-                                        <FastImage src="images/truck.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            {/* block 3 */}
-                            <div className="col-lg-4 col-md-12">
-                                <div className="mt-box m-b30">
-                                    <div className="mt-icon-box-wraper  p-a30 left bg-white   hover-border-outer hover-border">
-                                        <div className="icon-md radius m-b15">
-                                            <span className="icon-cell  site-text-primary"><i className="flaticon-ship-1" /></span>
-                                        </div>
-                                        <div className="icon-content">
-                                            <h4 className="mt-tilte  m-b15"><NavLink to={route.pages.ABOUT}>{services[0].title}</NavLink></h4>
-                                            <p>{services[0].text}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mt-box m-b30">
-                                    <div className="mt-icon-box-wraper  p-a30 left bg-white   hover-border-outer hover-border">
-                                        <div className="icon-md radius m-b15">
-                                            <span className="icon-cell  site-text-primary"><i className="flaticon-forklift-1" /></span>
-                                        </div>
-                                        <div className="icon-content">
-                                            <h4 className="mt-tilte  m-b15"><NavLink to={route.pages.ABOUT}>{services[3].title}</NavLink></h4>
-                                            <p>{services[3].text}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Shipment Solution*/}
-            <div className="section-full p-t80 p-b50 bg-no-repeat bg-center bg-white" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-map.png")})` }}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5 col-md-12">
-                            <div className="mt-box m-b30">
-                                <div className="mt-thum-bx mt-img-effect  mt-img-overlay2">
-                                    <FastImage src="images/background/bg12.jpg" alt="" />
-                                    <a href="https://player.vimeo.com/video/66491481" className="mfp-video play-now">
-                                        <i className="icon fa fa-play" />
-                                        <span className="ripple" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-7 col-md-12">
-                            <div className="sx-shipment-wrap">
-                                <div className="mt-box m-b25">
-                                    <h2 className="display-block m-b15 m-t0">We give you complete control of your shipment. and help you.</h2>
-                                    <p className="m-b15">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, no when an unknown printer took a galley of
-                                        type and scrambled.</p>
-                                    <ul className="list-check-circle primary m-b20">
-                                        <li>Simply dummy text of the Lorem Ipsum is printing and type setting. </li>
-                                        <li>And typesetting industry Lorem Ipsum has been. Ipsum has been the.</li>
-                                        <li>Dummy text of the printing and typesetting industry. Text of the printing.</li>
-                                    </ul>
-                                    <NavLink to={route.services.SERVICES} className="site-button">Read more</NavLink>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="m-b30 text-black mt-icon-box-wraper center bdr-1 bdr-solid bdr-gray-light  bg-white p-a20">
-                                            <div className="counter font-42 font-weight-800 m-b15 site-text-primary">
-                                                <CountUp end={450} duration={10} />
-                                            </div>
-                                            <h4 className="m-tb0">Delivered Packages</h4>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="m-b30 text-black mt-icon-box-wraper center bdr-1 bdr-solid bdr-gray-light bg-white p-a20">
-                                            <div className="counter font-42 font-weight-800 m-b15 site-text-primary">
-                                                <CountUp end={45} duration={10} />
-                                            </div>
-                                            <h4 className="m-tb0">Countries Covered</h4>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="m-b30 text-black mt-icon-box-wraper center bdr-1 bdr-solid bdr-gray-light bg-white p-a20">
-                                            <div className="counter font-42 font-weight-800 m-b15  site-text-primary">
-                                                <CountUp end={670} duration={10} />
-                                            </div>
-                                            <h4 className="m-tb0">Satisfied Clients</h4>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6 col-sm-6">
-                                        <div className="m-b30 text-black mt-icon-box-wraper center bdr-1 bdr-solid bdr-gray-light bg-white p-a20">
-                                            <div className="counter font-42 font-weight-800 m-b15 site-text-primary">
-                                                <CountUp end={1500} duration={10} />
-                                            </div>
-                                            <h4 className="m-tb0">Tons of Goods</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <AboutUs />
+            
+            <Missions /> 
+            
             {/* Latest Project */}
             <div className="section-full  p-tb80 bg-full-height bg-secondry bg-repeat-x city-slide-image" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-trans-1.png")})` }}>
                 <div className="container-fluid">
@@ -333,49 +197,8 @@ function Home1Page() {
             {/* MY BLOG */}
             <SectionHome1Blogs />
 
-            {/* Why Choose */}
-            <div className="section-full bg-change-section overlay-wraper p-t80 p-b50">
-                <div className="overlay-main bg-secondry opacity-09" />
-                <div className="bg-changer">
-                    <div className=" section-bg active" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg1.jpg")})` }} />
-                    <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg2.jpg")})` }} />
-                    <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg3.jpg")})` }} />
-                    <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg4.jpg")})` }} />
-                    <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg5.jpg")})` }} />
-                    <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg6.jpg")})` }} />
-                </div>
-                <div className="container">
-                    {/* TITLE START*/}
-                    <div className="section-head text-center text-white">
-                        <h2 data-title="Misi Kami">Misi Kami</h2>
-                        <div className="mt-separator-outer">
-                            <div className="mt-separator site-bg-primary" />
-                        </div>
-                    </div>
-                    {/* TITLE END*/}
-                    <div className="section-content">
-                        <div className="row">
-                            {missions.map((item, index) => (
-                               <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
-                                    <div className="mt-icon-box-wraper  p-a30 bgcall-block hover-shadow hover-border-outer hover-border m-b30">
-                                        <div className="icon-md radius m-b15">
-                                            <span className="icon-cell  text-white"><i className={item.icon} /></span>
-                                        </div>
-                                        <div className="icon-content">
-                                            <h4 className="mt-tilte  m-b15 site-text-primary">
-                                                {item.title}
-                                            </h4>
-                                            <p className="text-white">
-                                                {item.text}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div> 
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
+                       
+
             {/* Testimonials */}
             <SectionHome1Testimonials />
 
