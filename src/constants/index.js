@@ -13,11 +13,7 @@ export const menus = [
     },
     {
         id: "#visi",
-        label: "Visi",
-    },
-    {
-        id: "#misi",
-        label: "Misi",
+        label: "Visi & Misi",
     },
     {
         id: "#layanan",
@@ -31,11 +27,6 @@ export const menus = [
         id: "#kontak",
         label: "Kontak",
     },
-    {
-        id: "#misi",
-        label: "Misi",
-    },
-    
 ]
 
 export const heros = [
