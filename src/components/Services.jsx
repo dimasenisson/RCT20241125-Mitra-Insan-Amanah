@@ -3,11 +3,11 @@
 // import { NavLink } from "react-router-dom";
 // import _data from "../../../../globals/data/data.json";
 
-import { route } from "../../../globals/constants"
-import FastImage from "../../../globals/elements/fastimg"
+import { route } from "../globals/constants"
+import FastImage from "../globals/elements/fastimg"
 import { NavLink } from "react-router-dom"
-import _data from "../../../globals/data/data.json"
-import { services } from "../../../constants"
+import _data from "../globals/data/data.json"
+import { services } from "../constants"
 
 const Services = () => {
     const { team2 } = _data.team;

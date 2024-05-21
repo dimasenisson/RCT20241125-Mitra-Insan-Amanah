@@ -1,7 +1,7 @@
-import { logo } from "../../../../assets";
-import { addresses, companyName, email, phone } from "../../../../constants";
-import { route, publicUrlFor } from "../../../../globals/constants";
-import FastImage from "../../../../globals/elements/fastimg";
+import { logo } from "../assets";
+import { addresses, companyName, email, phone } from "../constants";
+import { route, publicUrlFor } from "../globals/constants";
+import FastImage from "../globals/elements/fastimg";
 import { NavLink } from "react-router-dom";
 
 function SectionFooter1(props) {

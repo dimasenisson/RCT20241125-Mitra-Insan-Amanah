@@ -1,6 +1,6 @@
-import { visi } from "../../../constants"
-import { publicUrlFor } from "../../../globals/constants"
-import FastImage from "../../../globals/elements/fastimg"
+import { visi } from "../constants"
+import { publicUrlFor } from "../globals/constants"
+import FastImage from "../globals/elements/fastimg"
 
 const Vision = () => {
     return (

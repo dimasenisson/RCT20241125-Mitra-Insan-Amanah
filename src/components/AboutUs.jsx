@@ -1,6 +1,6 @@
-import { publicUrlFor } from "../../../globals/constants"
-import { abouts } from "../../../constants"
-import { bgAboutUs } from "../../../assets"
+import { publicUrlFor } from "../globals/constants"
+import { abouts } from "../constants"
+import { bgAboutUs } from "../assets"
 
 const AboutUs = () => {
   return (

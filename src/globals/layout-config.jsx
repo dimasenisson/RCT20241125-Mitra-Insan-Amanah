@@ -1,5 +1,5 @@
-import SectionFooter1 from "../app/sections/common/footer/footer1";
-import SectionHeader1 from "../app/sections/common/header/header1";
+import SectionFooter1 from "../components/footer1";
+import SectionHeader1 from "../components/header1";
 import SectionHeader2 from "../app/sections/common/header/header2";
 import SectionHeader3 from "../app/sections/common/header/header3";
 import { route } from "./constants";

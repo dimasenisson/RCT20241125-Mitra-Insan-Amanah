@@ -1,12 +1,11 @@
-import FastImage from "../../../../globals/elements/fastimg";
+import FastImage from "../globals/elements/fastimg";
 import { NavLink } from "react-router-dom";
-import { route } from "../../../../globals/constants";
-import { publicUrlFor, loadScript } from "../../../../globals/constants";
+import { route } from "../globals/constants";
+import { loadScript } from "../globals/constants";
 import { useEffect } from "react";
-import { heros } from "../../../../constants";
+import { heros } from "../constants";
 
-function SectionSlider1() {    
-
+const Hero = () => {
     useEffect(()=>{
         loadScript("js/rev-script-3.js")
     }, [])
@@ -129,4 +128,5 @@ function SectionSlider1() {
         </>
     )
 }
-export default SectionSlider1;
+
+export default Hero
