@@ -7,6 +7,7 @@ import { route } from "../../../globals/constants"
 import FastImage from "../../../globals/elements/fastimg"
 import { NavLink } from "react-router-dom"
 import _data from "../../../globals/data/data.json"
+import { services } from "../../../constants"
 
 const Services = () => {
     const { team2 } = _data.team;
@@ -28,134 +29,23 @@ const Services = () => {
                                     {/* IMAGE CAROUSEL START */}
                                     <div className="section-content">
                                         <div className="owl-carousel owl-carousel-filter  owl-btn-vertical-center fillter-nav-left">
-                                            {/* Block 1 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic1.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Less than truckload</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
+                                            {services.map((item, index) => (
+                                               <div key={index} className="item overflow-hide">
+                                                    <div className="mt-box">
+                                                        <div className="mt-img-effect overlay-2">
+                                                            <img src={item.image} alt="" />
+                                                            <div className="overlay-2-bg bg-black" />
+                                                            <div className="overlay-2-content">
+                                                                <div className="p-a30 p-b20">
+                                                                    <h4 className="m-t0 m-b15 site-text-primary">{item.title}</h4>
+                                                                    <p className="m-b20 text-white">{item.text}</p>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 2 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic2.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Trucking &amp; Warehousing</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 3 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic3.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Sea Delivery</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible.</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 4 */}
-                                            <div className="item  overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic4.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Logistic Services</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 5 */}
-                                            <div className="item  overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic5.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Ground Shipping</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 6 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic6.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">International Air Freight</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 7 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic7.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Rail Shipping</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* Block 8 */}
-                                            <div className="item overflow-hide">
-                                                <div className="mt-box">
-                                                    <div className="mt-img-effect overlay-2">
-                                                        <FastImage src="images/gallery/portrait/pic8.jpg" alt="" />
-                                                        <div className="overlay-2-bg bg-black" />
-                                                        <div className="overlay-2-content">
-                                                            <div className="p-a30 p-b20">
-                                                                <h4 className="m-t0 m-b15 site-text-primary">Frost Shipping</h4>
-                                                                <p className="m-b20 text-white">Imagination… What we can easily see is only a small percentage of what is possible</p>
-                                                                <NavLink to={route.pages.ABOUT} className="site-button">Read More</NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                </div> 
+                                            ))}
+                                            
                                         </div>
                                     </div>
                                 </div>

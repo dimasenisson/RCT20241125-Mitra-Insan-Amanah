@@ -1,4 +1,4 @@
-import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6, bgMission7, hero1, hero2, hero3 } from "../assets"
+import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6, bgMission7, hero1, hero2, hero3, service1, service2, service3, service4 } from "../assets"
 
 export const companyName = "PT Mitra Insan Amanah"
 
@@ -124,26 +124,30 @@ export const services = [
     {
         id: 1,
         title: "Pengiriman Reguler",
+        subtitle: "Layanan pengiriman reguler adalah solusi ideal untuk pengiriman barang dengan waktu yang lebih fleksibel.",
         text: "Layanan pengiriman reguler adalah solusi ideal untuk pengiriman barang dengan waktu yang lebih fleksibel. Kami mengatur pengiriman sesuai jadwal rutin yang telah ditentukan. Layanan ini cocok untuk kebutuhan pengiriman yang tidak mendesak namun tetap mengutamakan efisiensi.",
-        image: "",
+        image: service1,
     },
     {
         id: 2,
         title: "Trucking",
+        subtitle: "Layanan trucking menyediakan solusi pengiriman barang melalui jaringan jalan darat.",
         text: "Layanan trucking menyediakan solusi pengiriman barang melalui jaringan jalan darat. Kami memiliki armada truk yang andal dan berpengalaman untuk mengangkut barang dengan cepat dan aman. Layanan ini mencakup pengiriman dalam skala lokal, regional, dan nasional, dengan pilihan truk yang sesuai dengan jenis dan volume barang yang dikirim.",
-        image: "",
+        image: service2,
     },
     {
         id: 3,
         title: "Pengiriman Express",
+        subtitle: "Layanan pengiriman ekspres dirancang untuk kebutuhan pengiriman barang yang memerlukan waktu pengiriman cepat dan prioritas tinggi.",
         text: "Layanan pengiriman ekspres dirancang untuk kebutuhan pengiriman barang yang memerlukan waktu pengiriman cepat dan prioritas tinggi. Kami menjamin pengiriman dengan waktu transit minimal, memungkinkan pelanggan mengirimkan barang dengan kecepatan dan efisiensi maksimal, terutama dalam situasi di mana waktu sangat penting.",
-        image: "",
+        image: service3,
     },
     {
         id: 4,
         title: "Container",
+        subtitle: "Layanan pengiriman container memungkinkan pelanggan mengirim barang dalam jumlah besar menggunakan kontainer khusus.",
         text: "Layanan pengiriman container memungkinkan pelanggan mengirim barang dalam jumlah besar menggunakan kontainer khusus. Kami menyediakan pengiriman kontainer yang aman dan efisien, baik untuk kebutuhan dalam negeri maupun internasional. Layanan ini mencakup pengangkutan, penanganan, dan pemantauan kontainer secara menyeluruh untuk memastikan barang tiba dengan selamat dan tepat waktu.",
-        image: "",
+        image: service4,
     },
 ]
 

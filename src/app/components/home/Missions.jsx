@@ -10,7 +10,6 @@ import SectionHome1Blogs from "../../sections/home/home1/section-home1-blogs";
 import SectionHome1Testimonials from "../../sections/home/home1/section-home1-testimonials";
 import _data from "../../../globals/data/data.json";
 import { companyName, missions, services } from "../../../constants";
-import { missionBg } from "../../../assets";
 
 const Missions = () => {
   return (
