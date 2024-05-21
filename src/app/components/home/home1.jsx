@@ -14,6 +14,7 @@ import Missions from "./Missions"
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Clients from "./Clients";
+import Vision from "./Vision";
 
 function Home1Page() {
 
@@ -27,6 +28,7 @@ function Home1Page() {
         <>
             <SectionSlider1 />
             <AboutUs />
+            <Vision/>
             <Missions /> 
             <Services/>
             <Clients/>
