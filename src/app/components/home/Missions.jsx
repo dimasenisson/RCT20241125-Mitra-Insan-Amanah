@@ -10,18 +10,16 @@ import SectionHome1Blogs from "../../sections/home/home1/section-home1-blogs";
 import SectionHome1Testimonials from "../../sections/home/home1/section-home1-testimonials";
 import _data from "../../../globals/data/data.json";
 import { companyName, missions, services } from "../../../constants";
+import { missionBg } from "../../../assets";
 
 const Missions = () => {
   return (
     <div className="section-full bg-change-section overlay-wraper p-t80 p-b50">
         <div className="overlay-main bg-secondry opacity-09" />
         <div className="bg-changer">
-            <div className=" section-bg active" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg1.jpg")})` }} />
-            <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg2.jpg")})` }} />
-            <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg3.jpg")})` }} />
-            <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg4.jpg")})` }} />
-            <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg5.jpg")})` }} />
-            <div className="section-bg" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg6.jpg")})` }} />
+            {missions.map((item, index) => (
+                <div key={index} className={`section-bg ${index === 0 ? 'active' : ''}`} style={{ backgroundImage: `url(${item.image})` }} />
+            ))}
         </div>
         <div className="container">
             {/* TITLE START*/}
@@ -35,7 +33,7 @@ const Missions = () => {
             <div className="section-content">
                 <div className="row">
                     {missions.map((item, index) => (
-                        <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                        <div key={index} className="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div className="mt-icon-box-wraper  p-a30 bgcall-block hover-shadow hover-border-outer hover-border m-b30">
                                 <div className="icon-md radius m-b15">
                                     <span className="icon-cell  text-white"><i className={item.icon} /></span>

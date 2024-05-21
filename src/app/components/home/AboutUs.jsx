@@ -32,10 +32,11 @@ const AboutUs = () => {
                     <div className="sx-shipment-wrap">
                         <div className="mt-box m-b25">
                             <h2 className="display-block m-b15 m-t0">
-                                Logistik yang Terpercaya, Pengiriman yang Aman, bersama Mitra Insan Amanah
+                                  Logistik yang Terpercaya, Pengiriman yang Aman, bersama 
+                                  <span className="site-text-primary"> Mitra Insan Amanah</span>
                             </h2>
                             {abouts.map((item, index) => (
-                                <p className="m-b15">{item}</p>  
+                                <p key={index} className="m-b15">{item}</p>  
                             ))}
                         </div>
                     </div>

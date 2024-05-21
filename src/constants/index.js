@@ -1,4 +1,4 @@
-import { hero1, hero2, hero3 } from "../assets"
+import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6, bgMission7, hero1, hero2, hero3 } from "../assets"
 
 export const companyName = "PT Mitra Insan Amanah"
 
@@ -74,42 +74,49 @@ export const missions = [
       title: "Memberikan layanan logistik yang terpercaya dan aman",
       text: "Untuk pengiriman barang ke seluruh Indonesia.",
       icon: "flaticon-people-1",
+      image: bgMission1,
     },
     {
       id: "1",
       title: "Mengoptimalkan infrastruktur dan teknologi terkini",
       text: "Dalam operasional logistik untuk memastikan kecepatan dan efisiensi pengiriman.",
       icon: "flaticon-transport-1",
+      image: bgMission2,
     },
     {
       id: "2",
       title: "Menjaga kepuasan pelanggan",
       text: "Dengan menyediakan solusi logistik yang sesuai dengan kebutuhan bisnis mereka.",
       icon: "flaticon-people",
+      image: bgMission3,
     },
     {
       id: "3",
       title: "Mengembangkan kemitraan yang kuat",
       text: "dengan pelanggan, pemasok, dan mitra bisnis lainnya untuk saling mendukung dan memperluas jaringan logistik.",
       icon: "flaticon-solution",
+      image: bgMission4,
     },
     {
       id: "4",
       title: "Menerapkan praktik bisnis yang berkelanjutan dan ramah lingkungan",
       text: "dalam setiap aspek operasional logistik.",
       icon: "flaticon-time-passing",
+      image: bgMission5,
     },
     {
       id: "5",
       title: "Mengedepankan integritas, profesionalisme, dan dedikasi tinggi",
       text: "dalam setiap layanan yang kami berikan.",
       icon: "flaticon-email",
+      image: bgMission6,
     },
     {
       id: "6",
       title: "Terus berinovasi dan mengembangkan kemampuan kami untuk tetap menjadi pemimpin",
       text: "dalam industri logistik di Indonesia.",
       icon: "flaticon-pencil",
+      image: bgMission7,
     },
   ]
 
