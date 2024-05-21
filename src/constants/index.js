@@ -1,3 +1,5 @@
+import { hero1, hero2, hero3 } from "../assets"
+
 export const companyName = "PT Mitra Insan Amanah"
 
 export const menus = [
@@ -41,13 +43,20 @@ export const heros = [
         id: 1,
         title: "Logistik yang Terpercaya",
         subtitle: "Subtitle logistik yang terpercaya",
-        image: "",
+        image: hero1,
     },
     {
         id: 2,
         title: "Pengiriman yang Aman",
         subtitle: "Subtitle pengiriman yang aman",
-        image: "",
+        image: hero2,
+    },
+    {
+        id: 3,
+        prefix: "Bersama",
+        title: "Mitra Insan Amanah",
+        subtitle: "Subtitle pengiriman yang aman",
+        image: hero3,
     },
 ]
 
