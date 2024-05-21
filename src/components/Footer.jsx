@@ -1,6 +1,6 @@
 import { addresses, companyName, email, phone } from "../constants";
 
-function SectionFooter1(props) {
+function Footer(props) {
     return (
         <>
             <footer id="kontak" className="site-footer footer-dark">
@@ -40,4 +40,4 @@ function SectionFooter1(props) {
         </>
     )
 }
-export default SectionFooter1;
+export default Footer;

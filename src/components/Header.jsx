@@ -4,7 +4,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { logo } from "../assets";
 import { menus } from "../constants";
 
-function SectionHeader1() {
+function Header() {
 
     const pathName = useLocation()
     const [isActive, setIsActive] = useState(false);
@@ -81,4 +81,4 @@ function SectionHeader1() {
         </header>
     )
 }
-export default SectionHeader1;
+export default Header;
