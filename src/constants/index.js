@@ -2,6 +2,9 @@ import { bgMission1, bgMission2, bgMission3, bgMission4, bgMission5, bgMission6,
 
 export const companyName = "PT Mitra Insan Amanah"
 
+export const phone = "08123456789"
+export const email = "mitrainsanamanah@gmail.com"
+
 export const menus = [
     {
         id: "#home",
