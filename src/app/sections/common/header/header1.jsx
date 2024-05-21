@@ -70,7 +70,7 @@ function SectionHeader1() {
                             <ul className=" nav navbar-nav">
                                 {menus.map((item, index) => (
                                     <li key={index} className={pathName.hash.includes(item.id) ? 'active' : ''}>
-                                        <a href={item.id}>{item.label}</a>
+                                        <a href={item.id} onClick={handleToggleMenu}>{item.label}</a>
                                     </li>
                                     
                                 ))}
