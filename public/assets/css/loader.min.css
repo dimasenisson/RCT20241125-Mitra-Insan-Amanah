@@ -9,7 +9,7 @@
 	width: 130px;
 	height: 100px;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(#465f98, #465f95), linear-gradient(#ff5e14, #ff5e14), linear-gradient(#ff5e14, #ff5e14);
+	background-image: linear-gradient(#465f98, #465f95), linear-gradient(#F6A200, #F6A200), linear-gradient(#F6A200, #F6A200);
 	background-size: 59px 48px, 24px 30px, 30px 18px;
 	background-position: 7px 2px, 65px 20px, 70px 32px;
   }

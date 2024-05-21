@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { loadScript, route } from "../../../../globals/constants";
 import FastImage from "../../../../globals/elements/fastimg";
 import { NavLink } from "react-router-dom";
+import { logo } from "../../../../assets";
 
 function SectionHeader1() {
 
@@ -17,53 +18,26 @@ function SectionHeader1() {
 
     return (
         <header className={"site-header header-style-1 mobile-sider-drawer-menu "+(isActive? 'active' : '')}>
-            <div className="top-bar top-bar-liner bg-secondry">
-                <div className="container">
-                    <div className="row">
-                        <div className="mt-topbar-right">
-                            <ul className="list-unstyled  tb-info-liner">
-                                <li><i className="site-text-primary" />Your Trusted 24 Hours Service Provider!</li>
-                            </ul>
-                            <ul className="list-inline tb-social-liner">
-                                <li><a href="https://www.facebook.com/" className="fa fa-facebook" /></li>
-                                <li><a href="https://twitter.com/" className="fa fa-twitter" /></li>
-                                <li><a href="https://in.linkedin.com/" className="fa fa-linkedin" /></li>
-                                <li><a href="https://www.instagram.com/" className="fa fa-instagram" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             {/* Search Link */}
             <div className="header-middle bg-white">
                 <div className="container">
                     <div className="logo-header">
                         <NavLink to={route.home.HOME1}>
-                            <FastImage src="images/logo-1.png" width={216} height={37} alt="" />
+                            <img src={logo} width={216} height={37} alt="" />
                         </NavLink>
                     </div>
                     <div className="header-info">
                         <ul>
                             <li>
                                 <div>
-                                    <div className="icon-sm">
-                                        <span className="icon-cell  site-text-primary"><i className="iconmoon-smartphone" /></span>
-                                    </div>
-                                    <div className="icon-content">
-                                        <strong>Phone Number</strong>
-                                        <span>0234-8765-9110</span>
-                                    </div>
+                                    <strong>Telepon</strong>
+                                    <span>0234-8765-9110</span>
                                 </div>
                             </li>
                             <li>
                                 <div>
-                                    <div className="icon-sm">
-                                        <span className="icon-cell  site-text-primary"><i className="iconmoon-envelope" /></span>
-                                    </div>
-                                    <div className="icon-content">
-                                        <strong>Email Address</strong>
-                                        <span>7xthemehelp@gamil.com</span>
-                                    </div>
+                                    <strong>Email</strong>
+                                    <span>7xthemehelp@gamil.com</span>
                                 </div>
                             </li>
                         </ul>

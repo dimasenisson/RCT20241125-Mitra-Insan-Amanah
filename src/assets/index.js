@@ -22,7 +22,10 @@ import client2 from './clients/client-2.png'
 import client3 from './clients/client-3.png'
 import client4 from './clients/client-4.png'
 
+import logo from './logo.png'
+
 export {
+    logo,
     hero1,
     hero2,
     hero3,
