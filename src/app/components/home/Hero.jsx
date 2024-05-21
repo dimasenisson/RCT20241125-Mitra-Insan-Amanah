@@ -1,4 +1,9 @@
-import React from 'react'
+import FastImage from "../../../globals/elements/fastimg";
+import { NavLink } from "react-router-dom";
+import { route } from "../../../globals/constants";
+import { loadScript } from "../../../globals/constants";
+import { useEffect } from "react";
+import { heros } from "../../../constants";
 
 const Hero = () => {
     useEffect(()=>{
