@@ -2,6 +2,8 @@ import hero1 from './hero/hero-1.png'
 import hero2 from './hero/hero-2.png'
 import hero3 from './hero/hero-3.png'
 
+import bgAboutUs from './about-us/about-us.png'
+
 import bgMission1 from './missions/mission-1.png'
 import bgMission2 from './missions/mission-2.png'
 import bgMission3 from './missions/mission-3.png'
@@ -24,6 +26,7 @@ export {
     hero1,
     hero2,
     hero3,
+    bgAboutUs,
     bgMission1,
     bgMission2,
     bgMission3,
