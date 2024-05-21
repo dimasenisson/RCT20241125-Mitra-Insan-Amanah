@@ -9,7 +9,7 @@ function SectionSlider1() {
 
     useEffect(()=>{
         loadScript("js/rev-script-3.js")
-    })
+    }, [])
 
     return (
         <>
@@ -22,11 +22,13 @@ function SectionSlider1() {
                             <div id="rev_slider_1077_1" className="rev_slider fullscreenbanner" style={{ display: 'none' }} data-version="5.4.1">
                                 <ul>
                                     {/* Logistik yang terpercaya  */}
-                                    <li data-index="rs-100" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000} data-thumb={publicUrlFor("images/main-slider/slider1/slide1.jpg")} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off" data-title="Intro" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
+                                    <li data-index="rs-100" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
+                                        data-thumb={heros[0].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
+                                        data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                         <FastImage 
                                         src={heros[0].image}
                                         alt="" 
-                                        data-lazyload={publicUrlFor(heros[0].image)} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
+                                        data-lazyload={heros[0].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
                                         
                                         <div className="tp-caption tp-shape tp-shapewrapper  " id="slide-100-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="['400','400','400','550']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;opacity:0;&quot;,&quot;speed&quot;:100,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:0,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:0,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style={{ zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.50)', borderColor: 'rgba(0, 0, 0, 0)', borderWidth: 0, background: 'linear-gradient(to top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)', cursor: 'default' }}>
                                         </div>
@@ -51,11 +53,13 @@ function SectionSlider1() {
                                     </li>
 
                                     {/* Pengiriman yang aman  */}
-                                    <li data-index="rs-200" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000} data-thumb={publicUrlFor("images/main-slider/slider1/slide2.jpg")} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off" data-title="Intro" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
+                                    <li data-index="rs-200" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
+                                        data-thumb={heros[1].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
+                                        data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                         <FastImage
                                         src={heros[1].image} 
                                         alt="" 
-                                        data-lazyload={publicUrlFor(heros[1].image)} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
+                                        data-lazyload={heros[1].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
 
                                         <div className="tp-caption tp-shape tp-shapewrapper  " id="slide-200-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="['400','400','400','550']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;opacity:0;&quot;,&quot;speed&quot;:100,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:0,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:0,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style={{ zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.50)', borderColor: 'rgba(0, 0, 0, 0)', borderWidth: 0, background: 'linear-gradient(to top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)', cursor: 'default' }}>
                                         </div>
@@ -82,11 +86,13 @@ function SectionSlider1() {
                                     </li>
 
                                     {/* Bersama mitra insan amanah  */}
-                                    <li data-index="rs-300" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000} data-thumb={publicUrlFor("images/main-slider/slider1/slide3.jpg")} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off" data-title="Intro" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
+                                    <li data-index="rs-300" data-transition="fade" data-slotamount={7} data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed={1000}
+                                        data-thumb={heros[2].image} data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1000} data-fsslotamount={7} data-saveperformance="off"
+                                        data-title="" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description>
                                         <FastImage 
                                         src={heros[2].image} 
                                         alt="" 
-                                        data-lazyload={publicUrlFor(heros[2].image)} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
+                                        data-lazyload={heros[2].image} data-bgposition="center center" data-kenburns="on" data-duration={20000} data-ease="Power1.easeOut" data-scalestart={110} data-scaleend={100} data-rotatestart={0} data-rotateend={0} data-offsetstart="0 0" data-offsetend="0 0" className="rev-slidebg" data-no-retina />
                                         
                                         <div className="tp-caption tp-shape tp-shapewrapper  " id="slide-300-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="['400','400','400','550']" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;opacity:0;&quot;,&quot;speed&quot;:100,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:0,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:0,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style={{ zIndex: 5, backgroundColor: 'rgba(0, 0, 0, 0.50)', borderColor: 'rgba(0, 0, 0, 0)', borderWidth: 0, background: 'linear-gradient(to top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%)', cursor: 'default' }}>
                                         </div>
