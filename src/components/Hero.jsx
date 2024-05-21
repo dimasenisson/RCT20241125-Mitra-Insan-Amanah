@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { loadScript } from "../constants";
 import { useEffect } from "react";
 import { heros } from "../constants";
+import { Link } from "react-scroll";
 
 const Hero = () => {
     useEffect(()=>{
@@ -45,7 +46,7 @@ const Hero = () => {
                                         </div>
                                         {/* LAYER NR. 5 */}
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-100-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to="#tentang-kami" className="site-button">SELENGKAPNYA</NavLink>
+                                            <Link to="tentang-kami" className="site-button" offset={-44} smooth={true} duration={500}>SELENGKAPNYA</Link>
                                         </div>
                                     </li>
 
@@ -76,9 +77,7 @@ const Hero = () => {
                                         </div>
                                         
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-200-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to="#tentang-kami" className="site-button">
-                                                SELENGKAPNYA
-                                            </NavLink>
+                                        <Link to="tentang-kami" className="site-button" offset={-44} smooth={true} duration={500}>SELENGKAPNYA</Link>
                                         </div>
                                     </li>
 
@@ -110,9 +109,7 @@ const Hero = () => {
                                         </div>
                                         {/* LAYER NR. 5 */}
                                         <div className="tp-caption BigBold-Button rev-btn " id="slide-300-layer-5" data-x="['left','left','left','left']" data-hoffset="['480','480','30','20']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['20','20','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;}]" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:650,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:50px;opacity:0;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;300&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[15,15,15,15]" data-paddingright="[50,50,50,50]" data-paddingbottom="[15,15,15,15]" data-paddingleft="[50,50,0,0]" style={{ zIndex: 8 }}>
-                                            <NavLink to="#tentang-kami" className="site-button">
-                                                SELENGKAPNYA
-                                            </NavLink>
+                                            <Link to="tentang-kami" className="site-button" offset={-44} smooth={true} duration={500}>SELENGKAPNYA</Link>
                                         </div>
                                     </li>
                                 </ul>

@@ -7,27 +7,27 @@ export const email = "mitrainsanamanah@gmail.com"
 
 export const menus = [
     {
-        id: "#home",
+        id: "home",
         label: "Home",
     },
     {
-        id: "#tentang-kami",
+        id: "tentang-kami",
         label: "Tentang Kami",
     },
     {
-        id: "#visi",
+        id: "visi",
         label: "Visi & Misi",
     },
     {
-        id: "#layanan",
+        id: "layanan",
         label: "Layanan",
     },
     {
-        id: "#klien",
+        id: "klien",
         label: "Klien",
     },
     {
-        id: "#kontak",
+        id: "kontak",
         label: "Kontak",
     },
 ]
