@@ -73,36 +73,43 @@ export const missions = [
       id: "0",
       title: "Memberikan layanan logistik yang terpercaya dan aman",
       text: "Untuk pengiriman barang ke seluruh Indonesia.",
+      icon: "flaticon-people-1",
     },
     {
       id: "1",
       title: "Mengoptimalkan infrastruktur dan teknologi terkini",
       text: "Dalam operasional logistik untuk memastikan kecepatan dan efisiensi pengiriman.",
+      icon: "flaticon-transport-1",
     },
     {
       id: "2",
       title: "Menjaga kepuasan pelanggan",
       text: "Dengan menyediakan solusi logistik yang sesuai dengan kebutuhan bisnis mereka.",
+      icon: "flaticon-people",
     },
     {
       id: "3",
       title: "Mengembangkan kemitraan yang kuat",
-      text: "dengan pelanggan, pemasok, dan mitra bisnis lainnya untuk saling mendukung dan memperluas jaringan logistik."
+      text: "dengan pelanggan, pemasok, dan mitra bisnis lainnya untuk saling mendukung dan memperluas jaringan logistik.",
+      icon: "flaticon-solution",
     },
     {
       id: "4",
       title: "Menerapkan praktik bisnis yang berkelanjutan dan ramah lingkungan",
       text: "dalam setiap aspek operasional logistik.",
+      icon: "flaticon-time-passing",
     },
     {
       id: "5",
       title: "Mengedepankan integritas, profesionalisme, dan dedikasi tinggi",
       text: "dalam setiap layanan yang kami berikan.",
+      icon: "flaticon-email",
     },
     {
       id: "6",
       title: "Terus berinovasi dan mengembangkan kemampuan kami untuk tetap menjadi pemimpin",
       text: "dalam industri logistik di Indonesia.",
+      icon: "flaticon-pencil",
     },
   ]
 
