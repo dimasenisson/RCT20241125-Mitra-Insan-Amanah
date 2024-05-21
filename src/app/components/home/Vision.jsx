@@ -4,7 +4,7 @@ import FastImage from "../../../globals/elements/fastimg"
 
 const Vision = () => {
     return (
-        <div className="section-full p-t80 p-b80 bg-center bg-full-height bg-no-repeat bg-gray" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-map.png")})` }}>
+        <div id="visi" className="section-full p-t80 p-b80 bg-center bg-full-height bg-no-repeat bg-gray" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-map.png")})` }}>
             <div className="container">
                 {/* TITLE START */}
                 <div className="section-head text-center">

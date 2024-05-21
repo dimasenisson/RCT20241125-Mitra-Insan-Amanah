@@ -14,14 +14,14 @@ function Home1Page() {
     })
 
     return (
-        <>
+        <div id="home">
             <Hero/>
             <AboutUs />
             <Vision/>
             <Missions /> 
             <Services/>
             <Clients/>
-        </>
+        </div>
     )
 }
 export default Home1Page;

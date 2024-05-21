@@ -4,7 +4,7 @@ import { clients } from "../../../constants"
 
 const Clients = () => {
     return (
-        <div className="section-full p-t80 p-b80 bg-center bg-full-height bg-no-repeat bg-white">
+        <div id="klien" className="section-full p-t80 p-b80 bg-center bg-full-height bg-no-repeat bg-white">
             <div className="container">
                 
                 <div className="section-head text-center">

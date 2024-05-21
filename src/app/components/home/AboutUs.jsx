@@ -4,7 +4,7 @@ import { bgAboutUs } from "../../../assets"
 
 const AboutUs = () => {
   return (
-    <div className="section-full p-t80 p-b50 bg-no-repeat bg-center bg-white" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-map.png")})` }}>
+    <div id="tentang-kami" className="section-full p-t80 p-b50 bg-no-repeat bg-center bg-white" style={{ backgroundImage: `url(${publicUrlFor("images/background/bg-map.png")})` }}>
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-md-12">

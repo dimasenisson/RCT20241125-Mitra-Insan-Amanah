@@ -7,13 +7,11 @@ import { NavLink } from "react-router-dom";
 function SectionFooter1(props) {
     return (
         <>
-            <footer className={"site-footer " + props.theme}>
-                {/* Footer Top Part */}
+            <footer id="kontak" className={"site-footer " + props.theme}>
                 <div className="footer-top overlay-wraper">
                     <div className="overlay-main" />
                     <div className="container">
                         <div className="row">
-                            {/* About */}
                                 <div className="widget widget_about">
                                 <h2> <span className="site-text-primary">{companyName}</span></h2>
                                     <p>Logistik yang Terpercaya, Pengiriman yang Aman, bersama Mitra Insan Amanah</p>

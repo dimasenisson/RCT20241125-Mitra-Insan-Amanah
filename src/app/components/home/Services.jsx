@@ -13,7 +13,7 @@ const Services = () => {
     const { team2 } = _data.team;
 
     return (
-        <div className="section-full text-center mt-our-team bg-gray p-t80 p-b50">
+        <div id="layanan" className="section-full text-center mt-our-team bg-gray p-t80 p-b50">
             <div className="container">
                 {/* TITLE START*/}
                 <div className="section-head text-center">
