@@ -36,20 +36,20 @@ export const heros = [
     {
         id: 1,
         title: "Logistik yang Terpercaya",
-        subtitle: "Subtitle logistik yang terpercaya",
+        subtitle: "Kami menekankan komitmen kami untuk memberikan layanan logistik yang dapat dipercaya.",
         image: hero1,
     },
     {
         id: 2,
         title: "Pengiriman yang Aman",
-        subtitle: "Subtitle pengiriman yang aman",
+        subtitle: "Kami mengerti bahwa bisnis Anda membutuhkan pengiriman barang yang tepat waktu, terjamin keamanannya, serta dilakukan dengan kehati-hatian dan profesionalisme yang tinggi. ",
         image: hero2,
     },
     {
         id: 3,
         prefix: "Bersama",
         title: "Mitra Insan Amanah",
-        subtitle: "Subtitle pengiriman yang aman",
+        subtitle: "Kami siap menjadi mitra yang dapat Anda andalkan dalam memenuhi kebutuhan logistik Anda",
         image: hero3,
     },
 ]
