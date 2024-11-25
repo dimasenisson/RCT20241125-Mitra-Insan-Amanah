@@ -38,7 +38,7 @@ function Header() {
                             <li>
                                 <div>
                                     <strong>Telepon</strong>
-                                    <span>08123456789</span>
+                                    <span>021 8886392</span>
                                 </div>
                             </li>
                             <li>
